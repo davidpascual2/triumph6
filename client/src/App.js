@@ -5,10 +5,10 @@ import {
 } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
-import AboutUs from "./pages/aboutUs/AboutUs";
 import Leaders from "./pages/leaders/Leaders";
 import Give from "./pages/give/Give";
 import Footer from "./components/footer/Footer";
+import ContactUs from "./pages/contactUs/ContactUs";
 
 
 
@@ -35,11 +35,11 @@ const Layout = () => {
         },
         {  
           path:'/leaders',
-          element:<AboutUs />
+          element:<Leaders />
         },
         {
           path:'/contactUs',
-          element:<Leaders />,
+          element:<ContactUs />,
         },
         {
           path:'/give',

@@ -6,7 +6,8 @@ import './navbar.css';
 export default function Navbar() {
   return (
     <>
-      <div className="fluidContainerNav container-sm">
+      <div className="nav container-sm">
+        
         <header className="header1">
           <img className="triumphLogo" src={triumph} alt='tri'/>
         </header>
@@ -22,18 +23,15 @@ export default function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li className="nav-item">
-                            {/* <a class="nav-link active" aria-current="page" href="#">Home</a> */}
                             <Link to='/' className="nav-link active" aria-current="page" href="#">Home</Link>
                         </li>
             
-                        <li className="nav-item">
-                            {/* <a class="nav-link" href="#leaders">Leadership</a> */}
-                            <Link to='/leaders' className="nav-link" >Leadership</Link>
+                        <li className="nav-item"> 
+                            <Link to='/contactUs' className="nav-link" >Contact Us</Link>
                         </li>
 
                         <li className="nav-item">
-                            {/* <a class="nav-link" href="#requests">Prayer Requests</a> */}
-                            <Link to='/requests' className="nav-link" >Prayer Requests</Link>
+                            <Link to='/give' className="nav-link" >Give</Link>
                         </li>
                     </ul>
                 </div>
