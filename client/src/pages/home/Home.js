@@ -1,21 +1,20 @@
 import React from 'react';
 import './home.css';
+import WhoWeAre from '../../components/whoWeAre/WhoWeAre';
+import CoreValues from '../../components/coreValues/CoreValues';
+import ServiceInfo from '../../components/serviceInfo/ServiceInfo';
+import Events from '../../components/events/Events';
 
 export default function Home() {
   return (
-    <div>Home
-      {/* these will be components */}
-      <br></br>
-      - Who We Are
-      <br></br>
-      - Core Values
-      <br></br>
-      - Service Information
-      <br></br>
-      - Events Calendar
-
-
+  <>
+    <div className='home'>
+      <WhoWeAre />
+      <CoreValues />
+      <ServiceInfo />
+      <Events />
     </div>
+  </>
 
   )
 }
