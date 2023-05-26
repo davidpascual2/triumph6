@@ -1,10 +1,58 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Outlet,
+} from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
+import AboutUs from "./pages/aboutUs/AboutUs";
+import Leaders from "./pages/leaders/Leaders";
+import Give from "./pages/give/Give";
+import Footer from "./components/footer/Footer";
 
 
+
+const Layout = () => {
+
+    return(
+      <>
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </>
+    );
+  };
+  
+  const router = createBrowserRouter([
+    
+    {
+      path: '/',
+      element: <Layout />,
+      children: [
+        {
+          path:'/',
+          element:<Home />
+        },
+        {  
+          path:'/aboutus',
+          element:<AboutUs />
+        },
+        {
+          path:'/leaders',
+          element:<Leaders />,
+        },
+        {
+          path:'/give',
+          element:<Give />,
+        },
+      ]
+    },
+  ]);
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+       <RouterProvider router={router}/>
     </div>
   );
 }
