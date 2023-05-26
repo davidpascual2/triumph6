@@ -34,11 +34,11 @@ const Layout = () => {
           element:<Home />
         },
         {  
-          path:'/aboutus',
+          path:'/leaders',
           element:<AboutUs />
         },
         {
-          path:'/leaders',
+          path:'/contactUs',
           element:<Leaders />,
         },
         {
