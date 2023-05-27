@@ -1,5 +1,6 @@
 .giveButton {
-    background: teal;
+    /* background: teal; */
+    background-color: teal;
     color: black;
     border: 0;
     padding: 15px;
@@ -14,5 +15,5 @@
     /* color: red; Specify your desired text color */
     text-decoration: none; /* Optional: To remove underline on hover */
     color: black;
-    /* color: rgb(28, 127, 127) */
+    background-color: rgb(1, 201, 201)
   }
