@@ -5,6 +5,7 @@ import CoreValues from '../../components/coreValues/CoreValues';
 import ServiceInfo from '../../components/serviceInfo/ServiceInfo';
 import Events from '../../components/events/Events';
 
+//==============================
 export default function Home() {
   return (
   <>

@@ -3,6 +3,16 @@ import './give.css';
 
 export default function Give() {
   return (
-    <div>Give</div>
+    <>
+    <div>
+    <a 
+      type="submit" 
+      className="giveButton"
+      href='https://adventistgiving.org/donate/ANIM2I'
+    >
+    Give Now
+    </a>
+    </div>
+    </>
   )
 }
