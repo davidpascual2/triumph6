@@ -1,14 +1,14 @@
 .nav{
-    background-color: whitesmoke;
+    background-color: yellow;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0.5rem;
-    /* border-radius: 1rem 1rem 0px 0px; */
+    /* make flex direction col when mobile; */
 }
 
 .header1 {
     height: 5rem;
-    background-color: lightblue;
+    background-color: green;
     border-radius: 1rem 1rem 0px 0px;
     display: flex;
     justify-content: center;
