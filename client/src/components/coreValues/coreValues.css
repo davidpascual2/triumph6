@@ -1,0 +1,21 @@
+.coreValuesComp{
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+}
+
+.coreValuesTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    /* margin-top: 5rem; */
+}
+
+.coreValuesTitle h1{
+    font-size: 96px;
+}
+
+.valuesCont{
+    display: flex;
+}

@@ -14,30 +14,36 @@ const scheduleTimes = {
 export default function ServiceInfo() {
   return (
     <>
-    <div>
-        <h1>Worship With Us</h1>
-        <h5>Saturday schedule</h5> 
+        <div className='schedule'>
+            <div className="scheduleTitle">
+                <h1>Worship With Us</h1>
+            </div>
 
-        <div className="">
-            <p>{scheduleTimes.sabbathschool}</p>
-            <p>Sabbath School</p>
-        </div>
+            <h5>Saturday schedule</h5> 
 
-        <div className="">
-            <p>{scheduleTimes.announcements}</p>
-            <p>Announcements</p>
-        </div>
+            <div className="scheduleContainer">
+                <div className="">
+                    <p>{scheduleTimes.sabbathschool}</p>
+                    <p>Sabbath School</p>
+                </div>
 
-        <div className="">
-            <p>{scheduleTimes.songworship}</p>
-            <p>Announcements</p>
-        </div>
+                <div className="">
+                    <p>{scheduleTimes.announcements}</p>
+                    <p>Announcements</p>
+                </div>
 
-        <div className="">
-            <p>{scheduleTimes.sermon}</p>
-            <p>Announcements</p>
+                <div className="">
+                    <p>{scheduleTimes.songworship}</p>
+                    <p>Announcements</p>
+                </div>
+
+                <div className="">
+                    <p>{scheduleTimes.sermon}</p>
+                    <p>Announcements</p>
+                </div>
+            </div>
+            
         </div>
-    </div>
     </>
   )
 }
