@@ -14,7 +14,7 @@ export default function Navbar() {
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Triumph</a>
+                {/* <a class="navbar-brand" href="#">Triumph</a> */}
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,6 +24,10 @@ export default function Navbar() {
                     <ul class="navbar-nav">
                         <li className="nav-item">
                             <Link to='/' className="nav-link active" aria-current="page" href="#">Home</Link>
+                        </li>
+
+                        <li className="nav-item"> 
+                            <Link to='/leaders' className="nav-link" >Leaders</Link>
                         </li>
             
                         <li className="nav-item"> 
