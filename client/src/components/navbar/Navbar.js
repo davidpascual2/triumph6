@@ -6,7 +6,7 @@ import './navbar.css';
 export default function Navbar() {
   return (
     <>
-      <div className="nav container-sm">
+      <div className="nav container-lg">
         
         <header className="header1">
           <img className="triumphLogo" src={triumph} alt='tri'/>

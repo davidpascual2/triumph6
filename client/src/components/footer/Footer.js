@@ -12,7 +12,7 @@ const phoneNumber = "253-951-0250";
 export default function Footer() {
   return (
     <>
-    <div className='footer container-sm d-flex flex-md-row flex-column'>
+    <div className='footer container-lg d-flex flex-md-row flex-column'>
         <div className='logoContainer2'>
             <img className='triumphLogo2' src={triumph} alt="" />
 
