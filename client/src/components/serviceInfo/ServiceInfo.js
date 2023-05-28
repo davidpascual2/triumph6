@@ -11,14 +11,15 @@ const scheduleTimes = {
     sermon: "1:30PM"
 }
 
+//=====================================
 export default function ServiceInfo() {
   return (
     <>
         <div className='schedule'>
+
             <div className="scheduleTitle">
                 <h1>Worship With Us</h1>
             </div>
-
 
             <div className="scheduleContainer">
                 <h5>Saturday Schedule</h5> 
@@ -45,7 +46,6 @@ export default function ServiceInfo() {
                     </div>
                 </div>
             </div>
-
         </div>
     </>
   )
