@@ -19,30 +19,33 @@ export default function ServiceInfo() {
                 <h1>Worship With Us</h1>
             </div>
 
-            <h5>Saturday schedule</h5> 
 
             <div className="scheduleContainer">
-                <div className="">
-                    <p>{scheduleTimes.sabbathschool}</p>
-                    <p>Sabbath School</p>
-                </div>
+                <h5>Saturday Schedule</h5> 
 
-                <div className="">
-                    <p>{scheduleTimes.announcements}</p>
-                    <p>Announcements</p>
-                </div>
+                <div className="scheduleContents">
+                    <div className="scheduleItems">
+                        <p>Sabbath School</p>
+                        <p>{scheduleTimes.sabbathschool}</p>
+                    </div>
 
-                <div className="">
-                    <p>{scheduleTimes.songworship}</p>
-                    <p>Announcements</p>
-                </div>
+                    <div className="scheduleItems">
+                        <p>Announcements</p>
+                        <p>{scheduleTimes.announcements}</p>
+                    </div>
 
-                <div className="">
-                    <p>{scheduleTimes.sermon}</p>
-                    <p>Announcements</p>
+                    <div className="scheduleItems">
+                        <p>Song Worship</p>
+                        <p>{scheduleTimes.songworship}</p>
+                    </div>
+
+                    <div className="scheduleItems">
+                        <p>Sermon</p>
+                        <p>{scheduleTimes.sermon}</p>
+                    </div>
                 </div>
             </div>
-            
+
         </div>
     </>
   )
