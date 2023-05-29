@@ -1,5 +1,8 @@
 .nav{
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.625), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,13 +12,15 @@
     top: 0;
 
     /* make flex direction col when mobile; */
+}
 
-
+.navcollapse{
+    background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .header1 {
     height: 5rem;
-    background-color: aqua;
+    /* background-color: aqua; */
     /* border-radius: 1rem 1rem 0px 0px; */
     display: flex;
     justify-content: center;
