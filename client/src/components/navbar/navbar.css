@@ -33,3 +33,17 @@
     height: 280px;
 }
 
+.triumphLogo3{
+    width: auto;
+    height: 70px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        /* display: flex !important;
+        flex-direction: column;
+        align-items: center !important */
+      }
+  }
+

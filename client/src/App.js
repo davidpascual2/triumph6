@@ -12,11 +12,12 @@ import ContactUs from "./pages/contactUs/ContactUs";
 
 
 
+
 const Layout = () => {
 
   return (
     <>
-      <Navbar />
+      < Navbar />
       <Outlet />
       <Footer />
     </>

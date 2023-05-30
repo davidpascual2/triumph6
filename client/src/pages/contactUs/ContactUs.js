@@ -6,7 +6,7 @@ export default function ContactUs() {
   return (
     <>
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 contact Us
             </div>

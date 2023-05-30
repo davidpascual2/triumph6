@@ -99,6 +99,10 @@ export default function Leaders() {
 
         </div>
       </div>
+      <div>
+        {/* <Navbar /> */}
+        <h1>Leadership</h1>
+      </div>
     </>
   )
 }
