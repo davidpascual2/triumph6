@@ -14,45 +14,45 @@ import ContactUs from "./pages/contactUs/ContactUs";
 
 const Layout = () => {
 
-    return(
-      <>
-        {/* <Navbar /> */}
-        <Outlet />
-        <Footer />
-      </>
-    );
-  };
-  
-  const router = createBrowserRouter([
-    
-    {
-      path: '/',
-      element: <Layout />,
-      children: [
-        {
-          path:'/',
-          element:<Home />
-        },
-        {  
-          path:'/leaders',
-          element:<Leaders />
-        },
-        {
-          path:'/contactUs',
-          element:<ContactUs />,
-        },
-        {
-          path:'/give',
-          element:<Give />,
-        },
-      ]
-    },
-  ]);
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
+
+const router = createBrowserRouter([
+
+  {
+    path: '/',
+    element: <Layout />,
+    children: [
+      {
+        path: '/',
+        element: <Home />
+      },
+      {
+        path: '/leaders',
+        element: <Leaders />
+      },
+      {
+        path: '/contactUs',
+        element: <ContactUs />,
+      },
+      {
+        path: '/give',
+        element: <Give />,
+      },
+    ]
+  },
+]);
 
 function App() {
   return (
     <div>
-       <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </div>
   );
 }

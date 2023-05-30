@@ -3,8 +3,13 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
+    transform: scale(1.3);
+    /* translate: 0 -175px; */
 }
 
-.whoWeAre{
-    
+.whoWeAretext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
 }
