@@ -1,0 +1,29 @@
+.contactusTitle h1{
+    text-align: center;
+    margin-top: 3rem;
+    color:#022236;
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.contactUsContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.contactDesc{
+    flex:6
+}
+.contactUsComp{
+    /* margin-bottom: 8rem;
+    margin-top: 5rem; */
+    flex:6
+}
+
+.contactUsButton{
+    background-color: #022236;
+    color: whitesmoke;
+}
