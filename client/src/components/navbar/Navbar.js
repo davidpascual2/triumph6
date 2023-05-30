@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="nav container-fluid">
 
         <header className="header1">
-          <img className="triumphLogo" src={triumph} alt='tri' />
+          <img className="triumphLogo ps-3" src={triumph} alt='tri' />
         </header>
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary navcollapse">
