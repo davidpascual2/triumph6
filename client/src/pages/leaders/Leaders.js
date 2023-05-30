@@ -6,7 +6,7 @@ export default function Leaders() {
   return (
     <>
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <h1>Leadership</h1>
       </div>
     </>
