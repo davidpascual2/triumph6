@@ -26,7 +26,7 @@ export default function Leaders() {
         </div>
         <div className="row justify-content-center">
           <div className="col-md-5 col-9">
-            <img src={kenneth} className="rounded img-fluid p-0" alt="DaisyPhoto" />
+            <img src={kenneth} className="rounded img-fluid p-0" alt="KennethPhoto" />
           </div>
           <div className="col-md-5 col-9 mt-4 mt-md-0">
             <div className="row">
