@@ -29,6 +29,7 @@
     text-align: center;
     font-size: 40px;
     margin-top: 2rem;
+    color: #022236;
 }
 
 .scheduleContents{
@@ -38,6 +39,7 @@
     margin-top: 1rem;
     font-size: 35px;
     margin-bottom: 4rem;
+    color: #022236
 }
 
 .scheduleItems{
