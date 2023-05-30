@@ -6,7 +6,7 @@ export default function Give() {
   return (
     <>
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <a 
         type="submit" 
         className="giveButton"

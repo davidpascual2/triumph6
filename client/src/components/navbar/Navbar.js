@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import triumph from '../../assets/logo.001.beige.PNG';
 import './navbar.css';
+import triumph3 from '../../assets/logo.001.PNG';
 
 export default function Navbar() {
   return (
@@ -9,8 +10,9 @@ export default function Navbar() {
       <div className="nav container-fluid">
 
         <header className="header1">
-          <Link to="/" className='nav-link active'>
-            <img className="triumphLogo ps-3" src={triumph} alt='tri' />
+          <Link to="/" className=''>
+            <img className="triumphLogo ps-3 d-none d-md-flex" src={triumph} alt='tri' />
+            <img className="triumphLogo3 ps-3 d-md-none p-0 m-0" src={triumph3} alt='tri' />
           </Link>
         </header>
 

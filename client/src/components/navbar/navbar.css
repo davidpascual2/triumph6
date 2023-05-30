@@ -33,6 +33,11 @@
     height: 280px;
 }
 
+.triumphLogo3{
+    width: auto;
+    height: 70px;
+}
+
 
 @media screen and (max-width: 768px) {
     .nav {
