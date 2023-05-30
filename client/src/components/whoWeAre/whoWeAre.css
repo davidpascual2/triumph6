@@ -10,7 +10,7 @@
 
 .whoWeAre{
     display: flex;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     flex-direction: column;
     position: absolute;
     top: 35rem;
@@ -22,6 +22,7 @@
 .whoWeAre h1 {
     font-weight: bold;
     font-size: 96px;
+}
 
 .whoWeAretext{
     display: flex;
