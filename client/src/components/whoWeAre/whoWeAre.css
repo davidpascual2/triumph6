@@ -1,41 +1,37 @@
-.whoWeAreComp{
-    background-image: url('../../assets/home-mountain.jpg');
-    background-size: cover;
+.whoWeAreComp {
+    position: relative;
     width: 100%;
     height: 100vh;
+    background-image: url('../../assets/home-mountain.jpg');
+    background-size: cover;
     transform: scale(1.3);
-    translate: 0 -134px;
+    translate: 0 -220px;
     background-position: bottom;
-}
-
-
-/* .whoWeAre{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 35rem;
-    left: 6rem;
-    color: whitesmoke;
-    margin-right: 35rem;
-} */
-
-
-.whoWeAreText{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
+  }
+  
+  .whoWeAreContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     transform: scale(0.7692);
-    
-    position: relative;
-    top: 38rem;
-    left: 13rem;
-    color: whitesmoke;
-    margin-right: 62rem;
-    
-}
 
-.whoWeAreText h1 {
+  }
+  
+  .whoWeAreText {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .whoWeAreText h1 {
     font-weight: bold;
     font-size: 96px;
-}
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .whoWeAreText h1 {
+        font-weight: bold;
+        font-size: 70px;
+      }
+  }
