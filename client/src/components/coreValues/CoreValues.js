@@ -11,7 +11,6 @@ export default function CoreValues() {
 
             <div className="valuesCont">
                 <div className="row">
-
                     <div className='value col-md-6 col-12'>
                         <h4>Worship</h4>
                         <p>Worship God individually, in small groups & as a large body.</p>

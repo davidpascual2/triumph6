@@ -7,27 +7,27 @@ import { useEffect } from "react";
 
 
 export default function WhoWeAre() {
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.pageYOffset;
-      const parallaxContainer = document.querySelector('.whoWeAreComp');
-      const parallaxText = document.querySelector('.whoWeAreText');
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollPosition = window.pageYOffset;
+  //     const parallaxContainer = document.querySelector('.whoWeAreComp');
+  //     const parallaxText = document.querySelector('.whoWeAreText');
 
-      parallaxContainer.style.backgroundPositionY = `${-scrollPosition * 0.03}px`;
-      parallaxText.style.transform = `translateY(${scrollPosition * 0.2}px)`;
-    };
+  //     parallaxContainer.style.backgroundPositionY = `${-scrollPosition * 0.03}px`;
+  //     parallaxText.style.transform = `translateY(${scrollPosition * 0.2}px)`;
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   return (
     <>
-      <div className='whoWeAreComp'>
-      <div className='container-fluid d-flex whoWeAreContainer'>
+      <div className='whoWeAreComp container-fluid'>
+      <div className='d-flex whoWeAreContainer'>
           <div className='row justify-content-start mb-md-5 ms-md-5 mb-3 mx-1'>
             <div className="whoWeAreText col-md-6">
               <h1 className="">Who We Are</h1>
