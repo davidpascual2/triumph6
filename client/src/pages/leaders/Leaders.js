@@ -14,11 +14,15 @@ export default function Leaders() {
   return (
     <>
       <div className="container-fluid backgroundcolor">
+        <div className="row behindnav">
+
+        </div>
         <div className="row justify-content-center">
-          <div className="col-md-6 text-center mt-5">
+          <div className="col-md-6 text-center ">
             <h1>Leadership</h1>
           </div>
         </div>
+
         <div className="row">
           <div className="col-3">
             <h2 className="m-4">Pastor</h2>

@@ -5,5 +5,10 @@ h1 {
 
 .backgroundcolor{
   background-image: linear-gradient( #E8E1D7, #F1EEE9);
-  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#E8E1D7), to(#F1EEE9)); */
+  translate: 0px -96px;
+}
+
+.behindnav{
+  height: 96px;
+  /* translate: 0px -96px; */
 }
