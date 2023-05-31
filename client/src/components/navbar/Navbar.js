@@ -27,19 +27,19 @@ export default function Navbar() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li className="nav-item">
-                  <Link to='/' className="nav-link active" aria-current="page" href="#">Home</Link>
+                  <Link to='/' className="nav-link " aria-current="page" href="#">Home</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to='/leaders' className="nav-link" >Leaders</Link>
+                  <Link to='/leaders' className="nav-link " >Leaders</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to='/contactUs' className="nav-link" >Contact Us</Link>
+                  <Link to='/contactUs' className="nav-link " >Contact Us</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to='/give' className="nav-link" >Give</Link>
+                  <Link to='/give' className="nav-link " >Give</Link>
                 </li>
               </ul>
             </div>
