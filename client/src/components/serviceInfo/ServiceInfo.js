@@ -15,7 +15,7 @@ const scheduleTimes = {
 export default function ServiceInfo() {
   return (
     <>
-        <div className='schedule'>
+        {/* <div className='schedule'>
 
             <div className="scheduleTitle">
                 <h1>Worship With Us</h1>
@@ -46,7 +46,7 @@ export default function ServiceInfo() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
     </>
   )
 }
