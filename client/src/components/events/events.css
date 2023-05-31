@@ -1,4 +1,47 @@
-.calendarCont{
+
+.eventsTitle h1 {
+    font-size: 96px;
+    text-align: center;
+    color: #022236;
+    margin-top: 3rem;
+}
+.eventsContainer{
+    display: flex;
+    margin-top: 3rem;
+    /* give each child flex 6 or justify content? */
+    /* justify-content: space-evenly; */
+    gap: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-bottom: 5rem;
+}
+
+
+.calendar{
+    /* margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem; */
+    background-color: lightgreen;
+    flex: 6;
+
+}
+
+.eventContents{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: lightcoral;
+    flex: 6;
+}
+
+.eventItem{
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    /* margin-right: 25rem; */
+    /* margin-left: 25rem; */
+    color: black;
+    padding: 1.5rem;
+    justify-content: space-between;
+
 }
