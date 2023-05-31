@@ -13,9 +13,9 @@ import kenneth from '../../assets/Pic_Kenneth.jpg';
 export default function Leaders() {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid backgroundcolor">
         <div className="row justify-content-center">
-          <div className="col-6 text-center">
+          <div className="col-md-6 text-center mt-5">
             <h1>Leadership</h1>
           </div>
         </div>
@@ -99,10 +99,7 @@ export default function Leaders() {
 
         </div>
       </div>
-      <div>
-        {/* <Navbar /> */}
-        <h1>Leadership</h1>
-      </div>
+
     </>
   )
 }
