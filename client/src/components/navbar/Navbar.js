@@ -20,7 +20,7 @@ export default function Navbar() {
           <div class="container-fluid d-flex justify-content-end">
             {/* <a class="navbar-brand" href="#">Triumph</a> */}
 
-            <button class="navbar-toggler d-flex justify-content-end text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
