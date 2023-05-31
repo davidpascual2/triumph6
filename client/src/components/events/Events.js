@@ -1,10 +1,26 @@
 import React from 'react';
 import './events.css';
+import FullCalendar from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import interactionPlugin from '@fullcalendar/interaction';
+import ReactDOM from 'react-dom';
+// import MyCalendar from './MyCalendar';
 
 export default function Events() {
+  
   return (
     <>
-        <div>
+      <div className="calendarCont">
+        <FullCalendar
+          plugins={[dayGridPlugin, interactionPlugin]}
+          initialView="dayGridMonth"
+          events={[
+            { title: 'Event 1', date: '2023-06-01' },
+            { title: 'Event 2', date: '2023-06-03' },
+          ]}
+        />
+      </div>  
+        {/* <div>
             <h1>Events</h1>
             <div className='calendar'>
               calendar here
@@ -25,7 +41,7 @@ export default function Events() {
                 </div>
 
             </div>
-        </div>
+        </div> */}
     </>
   )
 }
