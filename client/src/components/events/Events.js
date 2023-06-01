@@ -14,6 +14,7 @@ export default function Events() {
       <div className="eventsTitle">
           <h1>Events</h1>
       </div>
+      
       <div className="eventsContainer">
         <div className="calendar">
           <FullCalendar
