@@ -29,10 +29,10 @@
 .eventContents{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 3rem;
-    /* background-color: lightgray; */
-    flex: 4;
+    /* background-color: lightcoral; */
+    /* flex: 4; */
 
 }
 
