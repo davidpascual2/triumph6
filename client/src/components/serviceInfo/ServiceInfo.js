@@ -47,37 +47,41 @@ export default function ServiceInfo() {
                 </div>
             </div>
         </div> */}
-            <div className="ServiceInfo pt-2 pb-5">
+            <div className="ServiceInfo pt-2 pb-5 container-fluid">
 
 
-                <div className="scheduleTitle">
+                <div className="scheduleTitle row">
                     <h1>Worship With Us</h1>
                 </div>
+                <div className="row justify-content-center">
 
-                <div className="scheduleContents">
 
-                    <h5>Saturday Schedule</h5>
+                    <div className="scheduleContents col-md-7 col-11">
 
-                    <div className="example">
-                        <div className="scheduleItem">
-                            <p className='m-0'>Sabbath School</p>
-                            <p className='m-0'>12:00 PM</p>
+                        <h5>Saturday Schedule</h5>
+
+                        <div className="example">
+                            <div className="scheduleItem">
+                                <p className='m-0'>Sabbath School</p>
+                                <p className=''>12:00 PM</p>
+                            </div>
+
+                            <div className="scheduleItem">
+                                <p className='m-0'>Announcements</p>
+                                <p className='m-0'>1:00 PM</p>
+                            </div>
+
+                            <div className="scheduleItem">
+                                <p className='m-0'>Song Worship</p>
+                                <p className='m-0'>1:00 PM</p>
+                            </div>
+
+                            <div className="scheduleItem">
+                                <p className='m-0'>Sermon</p>
+                                <p className='m-0'>1:30 PM</p>
+                            </div>
                         </div>
 
-                        <div className="scheduleItem">
-                            <p className='m-0'>Announcements</p>
-                            <p className='m-0'>1:00 PM</p>
-                        </div>
-
-                        <div className="scheduleItem">
-                            <p className='m-0'>Song Worship</p>
-                            <p className='m-0'>1:00 PM</p>
-                        </div>
-
-                        <div className="scheduleItem">
-                            <p className='m-0'>Sermon</p>
-                            <p className='m-0'>1:30 PM</p>
-                        </div>
                     </div>
 
                 </div>

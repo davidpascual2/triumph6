@@ -82,10 +82,10 @@
 }
 
 .scheduleContents{
-    display: flex;
-    flex-direction: column;
-    margin-right: 11rem;
-    margin-left: 11rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin-right: 11rem;
+    margin-left: 11rem; */
     background-color: #E8E1D7;
     border-radius: 1rem;
 }
@@ -105,8 +105,8 @@
     /* background-color: green; */
     display: flex;
     padding: 1rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    /* margin-right: 3rem; */
+    /* margin-left: 3rem; */
     margin-bottom: 3rem;
     margin-top: 1rem;
     flex-direction: column;

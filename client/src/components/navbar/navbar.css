@@ -1,16 +1,16 @@
 .nav{
     /* background-color: yellow; */
-    background-image: linear-gradient(rgba(255, 255, 255, 0.625), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(#f1eee9e2, #f1eee96e);
     backdrop-filter: blur(10px);
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 
     /* make flex direction col when mobile; */
 }
@@ -35,7 +35,7 @@
 
 .triumphLogo3{
     width: auto;
-    height: 70px;
+    height: 40px;
 }
 
 

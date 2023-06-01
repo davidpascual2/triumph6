@@ -6,9 +6,9 @@
     background-image: url('../../assets/home-mountain.jpg');
     background-size: cover;
     /* transform: scale(1.3); */
-    translate: 0 -220px;
+    /* translate: 0 -220px; */
     background-position: bottom;
-    display: flex;
+    /* display: flex; */
   }
   
   .whoWeAreContainer {
@@ -21,7 +21,7 @@
   }
   
   .whoWeAreText {
-    color: rgb(255, 255, 255);
+    color: #f1eee9 ;
     
   }
   
@@ -33,7 +33,7 @@
   @media screen and (max-width: 375px) {
     .whoWeAreText h1 {
         font-weight: bold;
-        font-size: 70px;
+        font-size: 96px;
       }
   }
   
