@@ -13,9 +13,9 @@ const scheduleTimes = {
 
 //=====================================
 export default function ServiceInfo() {
-  return (
-    <>
-        {/* <div className='schedule'>
+    return (
+        <>
+            {/* <div className='schedule'>
 
             <div className="scheduleTitle">
                 <h1>Worship With Us</h1>
@@ -47,33 +47,42 @@ export default function ServiceInfo() {
                 </div>
             </div>
         </div> */}
+            <div className="ServiceInfo pt-2 pb-5">
 
-            <div className="scheduleTitle">
-                <h1>Worship With Us</h1>
-            </div>
 
-            <div className="scheduleContents">
+                <div className="scheduleTitle">
+                    <h1>Worship With Us</h1>
+                </div>
 
-                <h5>Saturday Schedule</h5>
+                <div className="scheduleContents">
 
-                <div className="example">
-                    <div className="scheduleItem">
-                        <p className='m-0'>Sabbath School</p>
-                        <p className='m-0'>June 8</p>
+                    <h5>Saturday Schedule</h5>
+
+                    <div className="example">
+                        <div className="scheduleItem">
+                            <p className='m-0'>Sabbath School</p>
+                            <p className='m-0'>12:00 PM</p>
+                        </div>
+
+                        <div className="scheduleItem">
+                            <p className='m-0'>Announcements</p>
+                            <p className='m-0'>1:00 PM</p>
+                        </div>
+
+                        <div className="scheduleItem">
+                            <p className='m-0'>Song Worship</p>
+                            <p className='m-0'>1:00 PM</p>
+                        </div>
+
+                        <div className="scheduleItem">
+                            <p className='m-0'>Sermon</p>
+                            <p className='m-0'>1:30 PM</p>
+                        </div>
                     </div>
 
-                    <div className="scheduleItem">
-                        <p className='m-0'>Feeding the homeless</p>
-                        <p className='m-0'>June 21</p>
-                    </div>
-
-                    <div className="scheduleItem">
-                        <p className='m-0'>Game Day</p>
-                        <p className='m-0'>June 21</p>
-                    </div>
                 </div>
 
             </div>
-    </>
-  )
+        </>
+    )
 }
