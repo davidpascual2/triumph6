@@ -54,6 +54,8 @@ export default function ServiceInfo() {
 
             <div className="scheduleContents">
 
+                <h5>Saturday Schedule</h5>
+
                 <div className="example">
                     <div className="scheduleItem">
                         <p className='m-0'>Sabbath School</p>

@@ -70,12 +70,20 @@
     color: #022236;
 }
 
+.scheduleContents h5{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2rem;
+    color: #022236;
+}
+
 .scheduleContents{
     display: flex;
     flex-direction: column;
     margin-right: 11rem;
     margin-left: 11rem;
-    background-color: lightcoral;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
 }
 
 .scheduleItem{
@@ -95,7 +103,7 @@
     margin-right: 3rem;
     margin-left: 3rem;
     margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     flex-direction: column;
     gap: 1rem;
 }
