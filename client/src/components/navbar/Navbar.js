@@ -1,10 +1,18 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, {useEffect, useState} from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import triumph from '../../assets/logo.001.beige.PNG';
 import './navbar.css';
 import triumph3 from '../../assets/logo.001.PNG';
 
 export default function Navbar() {
+
+  // const location = useLocation();
+  // const [navbarCollapsed, setNavbarCollapsed] = useState(true);
+
+  // useEffect(() => {
+  //   setNavbarCollapsed(true); // Collapse the navbar by default on each location change
+  // }, [location]);
+
   return (
     <>
 
