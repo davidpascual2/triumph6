@@ -22,11 +22,11 @@ export default function Leaders() {
         </div>
 
         <div className="row">
-          <div className="col-3 m-3">
-            <h2 className="">Pastor</h2>
+          <div className="col-5 m-3">
+            <h2 className="px-4">Pastor</h2>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-evenly">
           <div className="col-md-5 col-9 p-0">
             <img src={kenneth} className="pastorphoto img-fluid" alt="KennethPhoto" />
           </div>
@@ -49,7 +49,7 @@ export default function Leaders() {
         {/* Edlers */}
         <div className="row">
           <div className="col-3 m-4 mt-5">
-            <h2 className="">Elders</h2>
+            <h2 className="px-4">Elders</h2>
           </div>
         </div>
         <div className="row justify-content-evenly pb-3">
