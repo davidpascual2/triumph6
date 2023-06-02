@@ -71,7 +71,7 @@
     justify-content: center;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    color: #ffffff;
+    color: #F1EEE9;
 }
 
 .scheduleContents h5{
@@ -86,7 +86,7 @@
     /* flex-direction: column; */
     /* margin-right: 11rem;
     margin-left: 11rem; */
-    background-color: #E8E1D7;
+    background-color: #F1EEE9;
     border-radius: 1rem;
 }
 
