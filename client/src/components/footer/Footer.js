@@ -25,7 +25,7 @@ export default function Footer() {
               {churchHours}</p>
 
           </div>
-          <div className="created col-md-4 ">
+          <div className="created col-md-4 m-0 p-0">
             <p>Copyright Triumph Adventist Chruch &copy; 2023</p>
           </div>
         </div>
