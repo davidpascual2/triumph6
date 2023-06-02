@@ -14,18 +14,16 @@ export default function Leaders() {
   return (
     <>
       <div className="container-fluid backgroundcolor">
-        <div className="row behindnav">
 
-        </div>
         <div className="row justify-content-center">
-          <div className="col-md-6 text-center ">
+          <div className="col-md-6 text-center mt-4 mb-2">
             <h1>Leadership</h1>
           </div>
         </div>
 
         <div className="row">
-          <div className="col-3">
-            <h2 className="m-4">Pastor</h2>
+          <div className="col-3 m-3">
+            <h2 className="m-2 fw-medium">Pastor</h2>
           </div>
         </div>
         <div className="row justify-content-center">
@@ -51,10 +49,10 @@ export default function Leaders() {
         {/* Edlers */}
         <div className="row">
           <div className="col-3 m-4 mt-5">
-            <h2>Elders</h2>
+            <h2 className="fw-medium">Elders</h2>
           </div>
         </div>
-        <div className="row justify-content-evenly my-3">
+        <div className="row justify-content-evenly pb-3">
           <div className="col-md-5 col-7 my-2">
             <div className="row ">
               <img src={daisy} className="rounded p-0" alt="DaisyPhoto" />

@@ -5,7 +5,7 @@ h1 {
 
 .backgroundcolor{
   background-image: linear-gradient( #E8E1D7, #F1EEE9);
-  translate: 0px -96px;
+  /* translate: 0px -96px; */
 }
 
 .behindnav{
