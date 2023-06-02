@@ -8,6 +8,9 @@ body {
   color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f1eee9;
+  /* background-color: #e8e1d7; */
+
 }
 
 code {

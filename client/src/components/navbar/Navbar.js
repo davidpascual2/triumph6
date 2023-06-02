@@ -7,6 +7,7 @@ import triumph3 from '../../assets/logo.001.PNG';
 export default function Navbar() {
   return (
     <>
+
       <div className="nav container-fluid">
 
         <header className="header1">
@@ -46,6 +47,8 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
+
+
     </>
   )
 }

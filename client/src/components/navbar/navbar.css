@@ -1,7 +1,14 @@
+.navbackground{
+    height: 80px;
+    background-color: #f1eee9;
+    /* translate: 0 80px; */
+
+}
 .nav{
     /* background-color: yellow; */
     background-image: linear-gradient(#f1eee9, #f1eee96e);
     backdrop-filter: blur(10px);
+    /* background-color: #f1eee9; */
 
     display: flex;
     flex-direction: row;
