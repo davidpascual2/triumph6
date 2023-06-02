@@ -1,8 +1,10 @@
 .footer{
-    background-color: #022236;
-    display: flex;
+    background-color: #333333;
+    /* display: flex; */
     padding: 0.5rem;
     justify-content: space-between;
+    font-weight: bold;
+    color: #F1EEE9;
     /* background-color: #444; */
     /* border-radius: 1rem; */
     /* margin-bottom: 1rem; */
@@ -10,24 +12,23 @@
 
 .triumphLogo2{
     width: auto;
-    height: 218px;
-    margin-left: 1rem;
+    height: 80px;
+    padding: 0.5rem;
 }
 
 .logoContainer2{
-    height: 5rem;
     /* background-color: lightblue; */
-    
-    display: flex;
-    
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .footerDesc{
     display: flex;
     flex-direction: column;
-    line-height: 0.25;
-    margin-top: 10px;
+    align-items: center;
+    padding: 2px;
+    justify-content: center;
+   
 }
 
 .footerDesc p {
@@ -37,9 +38,15 @@
 
 .created{
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+   text-align: center;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 1rem;
+  
+    /* flex-direction: column;
+    justify-content: flex-end;  */
 }
 
 .created p{
