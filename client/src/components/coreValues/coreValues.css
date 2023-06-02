@@ -23,6 +23,7 @@
 
 .valuesCont{
     display: flex;
+    justify-content: center;
     color: #022236;
     margin-right: 2rem;
     margin-left: 2rem;
