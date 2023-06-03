@@ -60,10 +60,10 @@ export default function ServiceInfo() {
 
                         <h5>Saturday Schedule</h5>
 
-                        <div className="example">
+                        <div className="scheduleItemsCont">
                             <div className="scheduleItem">
                                 <p className='m-0'>Sabbath School</p>
-                                <p className=''>12:00 PM</p>
+                                <p className='m-0'>12:00 PM</p>
                             </div>
 
                             <div className="scheduleItem">
