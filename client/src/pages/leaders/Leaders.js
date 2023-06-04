@@ -39,9 +39,9 @@ export default function Leaders() {
             <div className="row">
 
               <p>
-                Pastor Martinez is a lifelong learner and holds [relevant degrees or certifications] from [educational institutions]. They are continually seeking to grow in their understanding of God's Word and are committed to ongoing personal and professional development to better serve the needs of the congregation.<br></br>
+                Kenneth is a lifelong learner and holds [relevant degrees or certifications] from [educational institutions]. Kenneth continually seeks to grow in his understanding of God's Word and is committed to ongoing personal and professional development to better serve the needs of the congregation.<br></br>
 
-                With a heart for worship, a love for people, and a deep faith in God, Pastor Martinez considers it a privilege and joy to serve as the spiritual shepherd of [Church Name]. Their vision is to see lives transformed, hearts healed, and communities impacted by the power of God's love and grace.
+                With a heart for worship, a love for people, and a deep faith in God, Pastor Kenneth considers it a privilege and joy to serve as the spiritual shepherd of Triumph. His vision is to see lives transformed, hearts healed, and communities impacted by the power of God's love and grace.
               </p>
             </div>
           </div>

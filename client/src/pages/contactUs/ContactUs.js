@@ -14,6 +14,7 @@ export default function ContactUs() {
         <div className="contactDesc">
           <p>Feel free to reach out to any of our dedicated church staff members for assistance, guidance, or simply to connect. 
             Our staff is here to serve and support you on your spiritual journey.
+            <br/><br/>
             Additionally, we invite you to share your prayer requests and praises with us. 
             We believe in the power of prayer and the importance of lifting one another up in times of need and celebration. 
             Whether you have a specific prayer request or want to share a testimony of God's faithfulness in your life, we are here to listen, support, and join you in prayer.
