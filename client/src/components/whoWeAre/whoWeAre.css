@@ -31,6 +31,8 @@
   .whoWeAreText h1 {
     font-weight: bold;
     font-size: 96px;
+    color: #f1eee9 ;
+
   }
 
   @media screen and (max-width: 375px) {

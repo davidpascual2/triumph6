@@ -9,6 +9,7 @@ import Leaders from "./pages/leaders/Leaders";
 import Give from "./pages/give/Give";
 import Footer from "./components/footer/Footer";
 import ContactUs from "./pages/contactUs/ContactUs";
+import './App.css';
 
 
 
@@ -18,7 +19,9 @@ const Layout = () => {
   return (
     <>
       < Navbar />
-      <Outlet />
+      <div className="content-wrapper">
+        <Outlet />
+      </div>
       <Footer />
     </>
   );
@@ -52,7 +55,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
+    <div className="app-wrapper">
       <RouterProvider router={router} />
     </div>
   );

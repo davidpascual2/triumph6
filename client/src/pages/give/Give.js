@@ -5,11 +5,11 @@ import Navbar from '../../components/navbar/Navbar';
 export default function Give() {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
+      <div className="container-fluid ">
+        <div className="row my-5">
           <h1>Your Support Matters</h1>
         </div>
-        <div className="row justify-content-center my-3">
+        <div className="row justify-content-evenly my-5">
 
           <div className="col-md-5">
             <p>
@@ -28,7 +28,15 @@ export default function Give() {
             </a>
           </div>
 
-          <div className="col-md-5">2</div>
+          <div className="col-md-5 d-flex align-items-center verseContainer">
+            <div className=" ">
+              <h4 className="verseFont">"Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this," says the Lord Almighty, "and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it."
+                <br /><br />
+
+                Malachi 3:10</h4>
+            </div>
+
+          </div>
 
         </div>
 
