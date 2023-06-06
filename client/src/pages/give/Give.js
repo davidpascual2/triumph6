@@ -5,7 +5,7 @@ import Navbar from '../../components/navbar/Navbar';
 export default function Give() {
   return (
     <>
-      <div className="container-fluid ">
+      <div className="container-fluid d-flex flex-column align-items-center ">
         <div className="row my-5">
           <h1>Your Support Matters</h1>
         </div>

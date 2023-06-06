@@ -20,8 +20,8 @@ min-height: 100vh;
   .giveButton:hover {
     /* color: red; Specify your desired text color */
     text-decoration: none; /* Optional: To remove underline on hover */
-    color: black;
-    background-color: rgb(1, 201, 201)
+    color: #f5f2ed;
+    background-color: #555555;
   }
 
   h1{
