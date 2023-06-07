@@ -50,6 +50,7 @@ export default function Give() {
             type="submit"
             className="giveButton col-md-3 col-5 text-center"
             href='https://adventistgiving.org/donate/ANIM2I'
+            target="_blank"
           >
             Give Now
           </a>
