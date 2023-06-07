@@ -8,7 +8,7 @@
    
 }
 .eventsContainer{
-    display: flex;
+    /* display: flex; */
 
     justify-content: center;
 
@@ -23,9 +23,12 @@
 
 
 .calendar{
-    /* background-color: #AFC4C0; */
-    background-color: lightcyan;
+
+    background-color: #AFC4C0;
+    /* background-color: lightcyan; */
+
     flex: 8;
+    height: 90vh;
     padding: 1rem;
     border: 1px solid grey;
     border-radius: 1rem;
@@ -61,6 +64,8 @@
 @media screen and (max-width: 768px) {
     .eventsContainer {
         flex-direction: column;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
       }
 }
 
@@ -74,4 +79,10 @@
         font-size: 58px;
         
     }
+    .calendar {
+        flex: 11;
+        height: 60vh;
+
+      }
 }
+
