@@ -10,6 +10,7 @@ import Give from "./pages/give/Give";
 import Footer from "./components/footer/Footer";
 import ContactUs from "./pages/contactUs/ContactUs";
 import './App.css';
+import ScrollToTop from "./components/scrollToTop/ScrollToTop.js";
 
 
 
@@ -31,7 +32,12 @@ const router = createBrowserRouter([
 
   {
     path: '/',
-    element: <Layout />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Layout />
+      </>
+    ),
     children: [
       {
         path: '/',
