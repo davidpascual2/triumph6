@@ -23,12 +23,13 @@
 
 
 .calendar{
-    background-color: #AFC4C0;
+    /* background-color: #AFC4C0; */
+    background-color: lightcyan;
     flex: 8;
     padding: 1rem;
     border: 1px solid grey;
     border-radius: 1rem;
-    max-width: 45rem;
+    /* max-width: 45rem; */
 
 }
 

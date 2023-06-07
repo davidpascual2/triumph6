@@ -4,9 +4,17 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import ReactDOM from 'react-dom';
+import Iframe from 'react-iframe';
+
 // import MyCalendar from './MyCalendar';
 
 export default function Events() {
+
+  // const calendarStyle = {
+  //   border: '1px solid black',
+  //   width: '800px',
+  //   height: '600px',
+  // };
 
   return (
     <>
@@ -18,13 +26,24 @@ export default function Events() {
 
         <div className="eventsContainer">
           <div className="calendar">
-            <FullCalendar
+            {/* <FullCalendar
               plugins={[dayGridPlugin, interactionPlugin]}
               initialView="dayGridMonth"
               events={[
                 { title: 'Event 1', date: '2023-06-01' },
                 { title: 'Event 2', date: '2023-06-03' },
               ]}
+            /> */}
+
+
+            {/* <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23afc4c0&ctz=America%2FLos_Angeles&showPrint=0&showTabs=1&showTz=0&showTitle=0&showCalendars=0&showNav=1&showDate=1&src=MGFmZDJkMTljMmZjMmZhYzMzNWU2YTM0NjI1MDQ3ODVjNWEyM2RlZTM0MWQwMWJiYWM4NGQwZjBjZWJiOWZjZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441&color=%230B8043" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> */}
+            <Iframe
+              url="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23afc4c0&ctz=America%2FLos_Angeles&showPrint=0&showTabs=1&showTz=0&showTitle=0&showCalendars=0&showNav=1&showDate=1&src=MGFmZDJkMTljMmZjMmZhYzMzNWU2YTM0NjI1MDQ3ODVjNWEyM2RlZTM0MWQwMWJiYWM4NGQwZjBjZWJiOWZjZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441&color=%230B8043"
+              width="800"
+              height="600"
+              frameborder="0"
+              scrolling="no"
+              border="1px solid"
             />
           </div>
 
