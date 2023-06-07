@@ -5,7 +5,7 @@ import Navbar from '../../components/navbar/Navbar';
 export default function Give() {
   return (
     <>
-      <div className=" give container-fluid d-flex flex-column">
+      <div className=" give container-fluid d-flex flex-column ">
 
 
         <div className="row my-md-5 order-1 justify-content-center">
