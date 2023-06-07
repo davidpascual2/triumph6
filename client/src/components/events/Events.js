@@ -39,8 +39,10 @@ export default function Events() {
             {/* <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23afc4c0&ctz=America%2FLos_Angeles&showPrint=0&showTabs=1&showTz=0&showTitle=0&showCalendars=0&showNav=1&showDate=1&src=MGFmZDJkMTljMmZjMmZhYzMzNWU2YTM0NjI1MDQ3ODVjNWEyM2RlZTM0MWQwMWJiYWM4NGQwZjBjZWJiOWZjZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441&color=%230B8043" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> */}
             <Iframe
               url="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23afc4c0&ctz=America%2FLos_Angeles&showPrint=0&showTabs=1&showTz=0&showTitle=0&showCalendars=0&showNav=1&showDate=1&src=MGFmZDJkMTljMmZjMmZhYzMzNWU2YTM0NjI1MDQ3ODVjNWEyM2RlZTM0MWQwMWJiYWM4NGQwZjBjZWJiOWZjZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441&color=%230B8043"
+
               width="100%"
               height="100%"
+
               frameborder="0"
               scrolling="no"
               border="1px solid"
