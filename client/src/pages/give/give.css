@@ -24,14 +24,18 @@ min-height: 100vh;
     background-color: #555555;
   }
 
-  h1{
+  .give h1{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 7vh;
+    /* font-size: auto; */
     color: #333333;
     text-align: center;
+  
+  
+}
+
     
-  }
+
 
   .verseContainer{
    background-color:#afc4c0 ;
@@ -41,4 +45,18 @@ min-height: 100vh;
   .verseFont{
     /* font-size: 100px; */
     font-weight: semibold;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .contactUsContainer {
+        flex-direction: column;
+        gap:1rem;
+      }
+
+    .give h1{
+        font-size: 70px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
   }

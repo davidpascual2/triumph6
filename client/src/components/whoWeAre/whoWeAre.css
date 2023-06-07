@@ -32,19 +32,29 @@
     font-weight: bold;
     font-size: 96px;
     color: #f1eee9 ;
+    
 
   }
 
-  @media screen and (max-width: 375px) {
-    .whoWeAreText h1 {
-        font-weight: bold;
-        font-size: 96px;
-      }
-  }
-  
-  /* @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 375px) {
     .whoWeAreText h1 {
         font-weight: bold;
         font-size: 70px;
       }
-  } */
+  }
+   */
+
+
+  @media screen and (max-width: 768px) {
+    .whoWeAreText h1 {
+        font-weight: bold;
+        font-size: 58px;
+        
+      }
+
+      .whoWeAreText {
+        color: #f1eee9 ;
+        text-shadow: 0px 1px 15px rgb(0, 0, 0);
+        
+      }
+  }

@@ -1,7 +1,7 @@
 .contactusTitle h1{
     text-align: center;
     margin-top: 3rem;
-    color:#022236;
+    color:#333333;
     font-size: 96px;
     font-weight: bold;
 }
@@ -34,4 +34,8 @@
         flex-direction: column;
         gap:1rem;
       }
+
+    .contactusTitle h1{
+        font-size: 70px;
+    }
   }
