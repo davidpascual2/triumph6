@@ -67,4 +67,10 @@
     .eventItem {
         max-width: unset;
       }
+
+    .eventsTitle h1 {
+        font-weight: bold;
+        font-size: 58px;
+        
+    }
 }

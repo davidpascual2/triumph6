@@ -50,8 +50,11 @@ export default function ServiceInfo() {
             <div className="ServiceInfo pt-2 pb-5 container-fluid">
 
 
-                <div className="scheduleTitle row">
-                    <h1>Worship With Us</h1>
+                <div className="scheduleTitle row justify-content-center">
+                    <div className="col-11 col-md-12">
+
+                        <h1>Worship With Us</h1>
+                    </div>
                 </div>
                 <div className="row justify-content-center">
 
