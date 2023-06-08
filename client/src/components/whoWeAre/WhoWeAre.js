@@ -2,11 +2,10 @@ import React from 'react';
 import './whoWeAre.css'
 import { useEffect } from "react";
 
-
-
-
+//==================================
 
 export default function WhoWeAre() {
+  
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.pageYOffset;

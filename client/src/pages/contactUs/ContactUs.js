@@ -2,6 +2,8 @@ import React from 'react';
 import './contactUs.css';
 import Navbar from '../../components/navbar/Navbar';
 
+//===================================
+
 export default function ContactUs() {
   return (
     <>
@@ -43,7 +45,6 @@ export default function ContactUs() {
             <button type="submit" class="contactUsButton btn btn-lg btn-block">Submit Form</button>
           </form>
         </div>
-
       </div>
 
     </>
