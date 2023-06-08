@@ -6,15 +6,12 @@ import trino from '../../assets/trino.jpeg';
 import obed from '../../assets/obed.jpeg';
 import kenneth from '../../assets/Pic_Kenneth.jpg';
 
-
-
-
+//=================================
 
 export default function Leaders() {
   return (
     <>
       <div className="container-fluid backgroundcolor">
-
         <div className="row justify-content-center">
           <div className="col-md-6 text-center mt-4 mb-2">
             <h1>Leadership</h1>
@@ -97,11 +94,8 @@ export default function Leaders() {
               </h5>
             </div>
           </div>
-
-
         </div>
       </div>
-
     </>
   )
 }

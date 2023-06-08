@@ -1,8 +1,4 @@
 .coreValuesComp{
-    /* margin-right: 10rem;
-    margin-left: 10rem;
-    margin-bottom: 8rem; */
-    /* margin-top: 5rem; */
     background-color: #f1eee9;
 }
 
@@ -10,14 +6,12 @@
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
-    /* margin-top: 5rem; */
 }
 
 
 .coreValuesTitle h1{
     font-size: 96px;
     font-weight: bold;
-    /* color: #022236; */
     text-align: center;
 }
 
@@ -34,31 +28,15 @@
     margin-bottom: 2rem;
 }
 
-/* @media screen and (max-width: 375px) {
-    .coreValuesTitle h1 {
-        font-weight: bold;
-        font-size: 70px;
-      }
-} */
-
-  /* @media screen and (max-width: 768px) {
-    .coreValuesComp {
-        margin-right: 1rem;
-        margin-left: 1rem;
-        margin-bottom: 8rem
-      }
-  } */
-
-  @media screen and (max-width: 768px) {
-    .valuesCont {
-        margin-right: 2rem;
-        margin-left: 2rem;
-        margin-bottom: 8rem
-      }
-
-      .coreValuesTitle h1 {
-        font-weight: bold;
-        font-size: 58px;
-        
-      }
+@media screen and (max-width: 768px) {
+  .valuesCont {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
   }
+
+  .coreValuesTitle h1 {
+    font-weight: bold;
+    font-size: 58px;  
+  }
+}

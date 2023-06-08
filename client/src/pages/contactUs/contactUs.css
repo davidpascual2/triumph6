@@ -9,7 +9,7 @@
 .contactUsContainer{
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -38,4 +38,18 @@
     .contactusTitle h1{
         font-size: 70px;
     }
-  }
+}
+
+
+@media screen and (max-width: 425px) {
+    .contactUsContainer {
+        margin-right: 3rem;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+
+    .contactusTitle h1{
+        margin-top: 2rem;
+    }
+
+}
