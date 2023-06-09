@@ -18,5 +18,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/davidpascual2/triumph6/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
