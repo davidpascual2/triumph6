@@ -40,8 +40,8 @@
 
 .created{
     margin-top: 10px;
-   text-align: center;
-   display: flex;
+    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -54,6 +54,8 @@
 
 .created p{
     font-size: 12px;
-    line-height: 0;
+    /* line-height: 0; */
     color: whitesmoke;
+    margin: 0;
 }
+

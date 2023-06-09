@@ -1,5 +1,7 @@
 .coreValuesComp{
     background-color: #f1eee9;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .coreValuesTitle{
@@ -13,6 +15,7 @@
     font-size: 96px;
     font-weight: bold;
     text-align: center;
+    padding-top: 0.5rem;
 }
 
 .valuesCont{
@@ -21,7 +24,6 @@
     color: #022236;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 8rem
 }
 
 .value p{
