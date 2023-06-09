@@ -1,14 +1,10 @@
 {
-  "homepage": "https://davidpascual2.github.io/triumph6/",
   "name": "triumph6",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b davids2 -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,8 +14,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/davidpascual2/triumph6/issues"
-  },
-  "dependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
