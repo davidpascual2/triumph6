@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/triumph6/static/css/main.4e149c24.css",
+    "main.js": "/triumph6/static/js/main.8772ca25.js",
+    "static/media/home-mountain copy.jpeg": "/triumph6/static/media/home-mountain copy.0c9df3ab6fd70abc93d8.jpeg",
+    "static/media/Pic_Kenneth.jpg": "/triumph6/static/media/Pic_Kenneth.23468de18a94b0fe08c7.jpg",
+    "static/media/eddie.jpeg": "/triumph6/static/media/eddie.9fcf78ea508a53d7b419.jpeg",
+    "static/media/obed.jpeg": "/triumph6/static/media/obed.afd47e401c29d36b6fac.jpeg",
+    "static/media/logo.001.beige.PNG": "/triumph6/static/media/logo.001.beige.4b4fb458f37f648e2535.PNG",
+    "static/media/daisy.jpeg": "/triumph6/static/media/daisy.d9d71913434d9a57a426.jpeg",
+    "static/media/trino.jpeg": "/triumph6/static/media/trino.ca2fa4c7c67484931a8b.jpeg",
+    "static/media/logo.001.PNG": "/triumph6/static/media/logo.001.7c660d1e6561827359ad.PNG",
+    "index.html": "/triumph6/index.html",
+    "main.4e149c24.css.map": "/triumph6/static/css/main.4e149c24.css.map",
+    "main.8772ca25.js.map": "/triumph6/static/js/main.8772ca25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e149c24.css",
+    "static/js/main.8772ca25.js"
+  ]
+}
