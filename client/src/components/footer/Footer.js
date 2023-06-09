@@ -18,14 +18,14 @@ export default function Footer() {
           <div className='logoContainer2 col-md-4  d-flex justify-content-center justify-content-md-start'>
             <img className='triumphLogo2 d-none d-md-flex' src={triumph} alt="" />
           </div>
-          <div className='footerDesc col-md-4 text-center pt-3 pt-md-0'>
+          <div className='footerDesc col-md-4 text-center pt-md-3 pt-md-0'>
             <p className="my-2">Contact Us</p>
             <p>{address}, {cityStateZip} | {phoneNumber}
               <br></br>
               {churchHours}</p>
 
           </div>
-          <div className="created col-md-4 m-0 p-0 d-flex">
+          <div className="created col-md-4 m-0 p-md-0 pb-2 d-flex">
             <p className="d-flex">Copyright Triumph Adventist Chruch &copy; 2023</p>
           </div>
         </div>

@@ -14,18 +14,18 @@ export default function ContactUs() {
       <div className="contactUsContainer">
 
         <div className="contactDesc">
-          <p>Feel free to reach out to any of our dedicated church staff members for assistance, guidance, or simply to connect. 
+          <p>Feel free to reach out to any of our dedicated church staff members for assistance, guidance, or simply to connect.
             Our staff is here to serve and support you on your spiritual journey.
-            <br/><br/>
-            Additionally, we invite you to share your prayer requests and praises with us. 
-            We believe in the power of prayer and the importance of lifting one another up in times of need and celebration. 
+            <br /><br />
+            Additionally, we invite you to share your prayer requests and praises with us.
+            We believe in the power of prayer and the importance of lifting one another up in times of need and celebration.
             Whether you have a specific prayer request or want to share a testimony of God's faithfulness in your life, we are here to listen, support, and join you in prayer.
           </p>
         </div>
 
         <div class="contactUsComp container">
-          
-          <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+
+          <form target="_blank" action="https://formsubmit.co/info@triumphsda.org" method="POST">
             <div class="form-group">
               <div class="form-col">
                 <div class="col p-0">
@@ -41,7 +41,7 @@ export default function ContactUs() {
             <div class="form-group col-12 p-0">
               <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
             </div>
-            
+
             <button type="submit" class="contactUsButton btn btn-lg btn-block">Submit Form</button>
           </form>
         </div>
