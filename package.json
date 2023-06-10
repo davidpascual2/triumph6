@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "cd client && npm run build",
     "deploy": "cd client && gh-pages -b production5 -d build"
-
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/davidpascual2/triumph6/issues"
-  },
-  "dependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
