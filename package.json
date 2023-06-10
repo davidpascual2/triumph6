@@ -7,8 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "cd client && npm run build",
-    "deploy": "gh-pages -b production -d build",
-    "build": "cd client && react-scripts build"
+    "deploy": "gh-pages -b production -d build"
 
   },
   "repository": {
