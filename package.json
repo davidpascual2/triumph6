@@ -1,10 +1,13 @@
 {
+  "homepage": "https://davidpascual2.github.io/triumph6/",
   "name": "triumph6",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -14,6 +17,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/davidpascual2/triumph6/issues"
-  },
-  "homepage": "https://github.com/davidpascual2/triumph6#readme"
+  }
 }

@@ -24,7 +24,7 @@
   
   .whoWeAreText {
     color: #f1eee9 ;
-    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    /* text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); */
     
   }
   
@@ -54,7 +54,7 @@
 
       .whoWeAreText {
         color: #f1eee9 ;
-        text-shadow: 0px 1px 15px rgb(0, 0, 0);
+        /* text-shadow: 0px 1px 15px rgb(0, 0, 0); */
         
       }
   }
