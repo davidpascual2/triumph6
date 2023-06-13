@@ -17,5 +17,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/davidpascual2/triumph6/issues"
+  },
+  "devDependencies": {
+    "vercel": "^30.2.1"
   }
 }
