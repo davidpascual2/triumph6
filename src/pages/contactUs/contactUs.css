@@ -26,7 +26,7 @@
 
 .contactUsButton{
     background-color: #333333;
-    color: rgb(255, 61, 61);
+    color: whitesmoke;
 }
 
 @media screen and (max-width: 768px) {
