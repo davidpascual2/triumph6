@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/git@github.com:davidpascual2/triumph6.git/static/css/main.d37ffca2.css",
+    "main.js": "/git@github.com:davidpascual2/triumph6.git/static/js/main.b56ed971.js",
+    "static/media/home-mountain copy.jpeg": "/git@github.com:davidpascual2/triumph6.git/static/media/home-mountain copy.0c9df3ab6fd70abc93d8.jpeg",
+    "static/media/Pic_Kenneth.jpg": "/git@github.com:davidpascual2/triumph6.git/static/media/Pic_Kenneth.23468de18a94b0fe08c7.jpg",
+    "static/media/eddie.jpeg": "/git@github.com:davidpascual2/triumph6.git/static/media/eddie.9fcf78ea508a53d7b419.jpeg",
+    "static/media/obed.jpeg": "/git@github.com:davidpascual2/triumph6.git/static/media/obed.afd47e401c29d36b6fac.jpeg",
+    "static/media/logo.001.beige.PNG": "/git@github.com:davidpascual2/triumph6.git/static/media/logo.001.beige.4b4fb458f37f648e2535.PNG",
+    "static/media/daisy.jpeg": "/git@github.com:davidpascual2/triumph6.git/static/media/daisy.d9d71913434d9a57a426.jpeg",
+    "static/media/trino.jpeg": "/git@github.com:davidpascual2/triumph6.git/static/media/trino.ca2fa4c7c67484931a8b.jpeg",
+    "static/media/logo.001.PNG": "/git@github.com:davidpascual2/triumph6.git/static/media/logo.001.7c660d1e6561827359ad.PNG",
+    "index.html": "/git@github.com:davidpascual2/triumph6.git/index.html",
+    "main.d37ffca2.css.map": "/git@github.com:davidpascual2/triumph6.git/static/css/main.d37ffca2.css.map",
+    "main.b56ed971.js.map": "/git@github.com:davidpascual2/triumph6.git/static/js/main.b56ed971.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d37ffca2.css",
+    "static/js/main.b56ed971.js"
+  ]
+}
