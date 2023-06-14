@@ -7,6 +7,7 @@ import Navbar from '../../components/navbar/Navbar';
 export default function ContactUs() {
   return (
     <>
+
       <div className="text-center mt-4 mb-2">
         <h1>Contact Us</h1>
       </div>
