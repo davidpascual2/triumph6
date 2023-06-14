@@ -7,8 +7,9 @@ import Navbar from '../../components/navbar/Navbar';
 export default function ContactUs() {
   return (
     <>
-      <div className="col-md-6 text-center mt-4 mb-2">
-        <h1>Contact Us!</h1>
+
+      <div className="text-center mt-4 mb-2">
+        <h1>Contact Us</h1>
       </div>
 
       <div className="contactUsContainer">
