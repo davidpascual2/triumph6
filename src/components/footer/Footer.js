@@ -15,7 +15,7 @@ export default function Footer() {
     <>
       <div className='footer container-fluid'>
         <div className='row justify-content-md-between'>
-          <div className='logoContainer2 col-md-4  d-flex justify-content-center justify-content-md-start'>
+          <div className='logoContainer2 col-md-4  d-flex justify-content-center justify-content-md-start align-items-center'>
             <img className='triumphLogo2 d-none d-md-flex' src={triumph} alt="" />
           </div>
           <div className='footerDesc col-md-4 text-center pt-md-3 pt-md-0'>
