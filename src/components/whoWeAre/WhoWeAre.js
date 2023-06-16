@@ -30,7 +30,7 @@ export default function WhoWeAre() {
           <div className='row justify-content-md-start justify-content-center mb-md-5 ms-md-5 mb-3 mx-1'>
             <div className="whoWeAreText col-md-7 col-11">
               <h1 className="">Who We Are</h1>
-              <p>All are welcome. Whether you're seeking wisdom for living, searching to growth in your Christian walk, or simply looking for a community, you belong to Triumph Church. Let's discover life greatest’s questions, experience God personally, and journey together. </p>
+              <p>All are welcome. Whether you're seeking wisdom for living, searching to growth in your Christian walk, or simply looking for a community, you belong to Triumph Church. Let's discover life's greatest questions, experience God personally, and journey together. </p>
             </div>
           </div>
         </div>
