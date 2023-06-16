@@ -31,7 +31,7 @@ export default function Events() {
 
             <Iframe
               // url="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23afc4c0&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showCalendars=0&showTz=0&src=ZDFhNmI0NzBiM2I3MjdjMzhkOWY3MzNmMzRkOTNkYTA3ZTVmZjIzY2I3NzcyMGU0MGJmN2Y5MjE4MzBlZGJlN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161&color=%230B8043"
-              url="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23afc4c0&ctz=America%2FLos_Angeles&showCalendars=0&showTabs=0&showPrint=0&showTz=0&showTitle=0&src=ZDFhNmI0NzBiM2I3MjdjMzhkOWY3MzNmMzRkOTNkYTA3ZTVmZjIzY2I3NzcyMGU0MGJmN2Y5MjE4MzBlZGJlN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161&color=%230B8043"
+              url="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23afc4c0&ctz=America%2FLos_Angeles&showDate=1&showNav=1&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZDFhNmI0NzBiM2I3MjdjMzhkOWY3MzNmMzRkOTNkYTA3ZTVmZjIzY2I3NzcyMGU0MGJmN2Y5MjE4MzBlZGJlN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161"
               width="100%"
               height="100%"
               frameborder="0"
