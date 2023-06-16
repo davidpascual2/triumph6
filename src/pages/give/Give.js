@@ -17,14 +17,14 @@ export default function Give() {
         <div className="row justify-content-evenly order-3 order-md-2 my-4 my-md-0">
           <div className="col-md-5 col-11 p-3">
             <p className="d-none d-md-flex">
-              By generously supporting [Church Name], you enable us to spread the love of Christ, serve those in need, and create a vibrant place of worship and community. Thank you for your generosity!
+              By generously supporting Triumph, you enable us to spread the love of Christ, serve those in need, and create a vibrant place of worship and community. Thank you for your generosity!
               <br /><br />
               Click the link below to securely give your tithes and offerings online. Together, we can make a difference and bring glory to His name.
               <br /><br />
               Thank you for partnering with us to transform lives and make a positive impact.
             </p>
             <p className="d-md-none">
-              By generously supporting [Church Name], you enable us to spread the love of Christ, serve those in need, and create a vibrant place of worship and community. Thank you for your generosity!
+              By generously supporting Triumph, you enable us to spread the love of Christ, serve those in need, and create a vibrant place of worship and community. Thank you for your generosity!
               <br /><br />
               Click the link above to securely give your tithes and offerings online. Together, we can make a difference and bring glory to His name.
               <br /><br />

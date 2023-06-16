@@ -35,10 +35,13 @@ export default function Leaders() {
             </div>
             <div className="row">
 
-              <p>
+              {/* <p>
                 Kenneth is a lifelong learner and holds [relevant degrees or certifications] from [educational institutions]. Kenneth continually seeks to grow in his understanding of God's Word and is committed to ongoing personal and professional development to better serve the needs of the congregation.<br></br>
 
                 With a heart for worship, a love for people, and a deep faith in God, Pastor Kenneth considers it a privilege and joy to serve as the spiritual shepherd of Triumph. His vision is to see lives transformed, hearts healed, and communities impacted by the power of God's love and grace.
+              </p> */}
+              <p>
+              Kenneth initially arrived to the United States with the purpose of employment at Microsoft where he worked for eleven years and became a Senior Software Engineer. However, the Lord had other plans for him. He called him out of his engineering career to become a full-time church planter. Kenneth is now fully dedicated to extending the kingdom of God. He has acquired a Master of Arts in Christian Studies, and is currently pursuing a Doctorate in Ministry. Kenneth is happily married to Addi and is blessed with two young children. 
               </p>
             </div>
           </div>
