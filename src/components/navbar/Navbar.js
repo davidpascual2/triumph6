@@ -38,8 +38,8 @@ export default function CustomNavbar() {
               <Nav.Link className="d-flex justify-content-end" as={Link} to="/" onClick={handleNavLinkClick}>
                 Home
               </Nav.Link>
-              <Nav.Link className="d-flex justify-content-end" as={Link} to="/leaders" onClick={handleNavLinkClick}>
-                Leaders
+              <Nav.Link className="d-flex justify-content-end" as={Link} to="/aboutUs" onClick={handleNavLinkClick}>
+                About Us
               </Nav.Link>
               <Nav.Link className="d-flex justify-content-end" as={Link} to="/contactUs" onClick={handleNavLinkClick}>
                 Contact Us

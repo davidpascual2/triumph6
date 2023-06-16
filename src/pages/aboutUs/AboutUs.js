@@ -1,5 +1,5 @@
 import React from 'react';
-import './leaders.css';
+import './aboutUs.css';
 import daisy from '../../assets/daisy.jpeg';
 import eddie from '../../assets/eddie.jpeg';
 import trino from '../../assets/trino.jpeg';
@@ -8,7 +8,7 @@ import kenneth from '../../assets/Pic_Kenneth.jpg';
 
 //=================================
 
-export default function Leaders() {
+export default function AboutUs() {
   return (
     <>
       <div className="container-fluid backgroundcolor">
@@ -41,7 +41,7 @@ export default function Leaders() {
                 With a heart for worship, a love for people, and a deep faith in God, Pastor Kenneth considers it a privilege and joy to serve as the spiritual shepherd of Triumph. His vision is to see lives transformed, hearts healed, and communities impacted by the power of God's love and grace.
               </p> */}
               <p className='mt-3'>
-              Kenneth initially arrived to the United States with the purpose of employment at Microsoft where he worked for eleven years and became a Senior Software Engineer. However, the Lord had other plans for him. He called him out of his engineering career to become a full-time church planter. Kenneth is now fully dedicated to extending the kingdom of God. He has acquired a Master of Arts in Christian Studies, and is currently pursuing a Doctorate in Ministry. Kenneth is happily married to Addi and is blessed with two young children. 
+                Kenneth initially arrived to the United States with the purpose of employment at Microsoft where he worked for eleven years and became a Senior Software Engineer. However, the Lord had other plans for him. He called him out of his engineering career to become a full-time church planter. Kenneth is now fully dedicated to extending the kingdom of God. He has acquired a Master of Arts in Christian Studies, and is currently pursuing a Doctorate in Ministry. Kenneth is happily married to Addi and is blessed with two young children.
               </p>
             </div>
           </div>

@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
-import Leaders from "./pages/leaders/Leaders";
+import AboutUs from "./pages/aboutUs/AboutUs";
 import Give from "./pages/give/Give";
 import Footer from "./components/footer/Footer";
 import ContactUs from "./pages/contactUs/ContactUs";
@@ -44,8 +44,8 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: '/leaders',
-        element: <Leaders />
+        path: '/aboutUs',
+        element: <AboutUs />
       },
       {
         path: '/contactUs',
