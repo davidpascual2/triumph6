@@ -20,9 +20,8 @@ export default function Footer() {
           </div>
           <div className='footerDesc col-md-4 text-center pt-md-3 pt-md-0'>
             <p className="my-2">Contact Us</p>
-            <p>{address}, {cityStateZip} | {phoneNumber}
-              <br></br>
-              {churchHours}</p>
+            <p className="my-2">{address}, {cityStateZip}</p>
+            <p className="my-2">{phoneNumber}</p>
 
           </div>
           <div className="created col-md-4 m-0 p-md-0 pb-2 d-flex">
