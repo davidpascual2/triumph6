@@ -12,24 +12,24 @@ export default function CoreValues() {
                 <div className="valuesCont">
                     <div className="row">
                         <div className='value col-md-6 col-12'>
-                            <h4>Worship</h4>
-                            <p>Worship God individually, in small groups & as a large body.</p>
+                            <h4>Follow Jesus</h4>
+                            <p>It’s all about Jesus. We believe he loves, he cares, and we are better when we follow him.</p>
                         </div>
 
                         <div className='value col-md-6 col-12'>
-                            <h4>Community</h4>
-                            <p>Nurturing one another through fellowship & intentional relationships.</p>
+                            <h4>Love others </h4>
+                            <p>We are not a social club. We don’t care just for our insiders. We actively seek to love people outside of our community.</p>
                         </div>
 
                         <div className='value col-md-6 col-12'>
-                            <h4>Bible Study & Prayer</h4>
-                            <p>Digging Deeper through Bible study & prayer. </p>
+                            <h4>Extend the Kingdom</h4>
+                            <p>We are on a mission to make the world a better place. We firmly believe that our best bet to achieve that is by spreading the good news of Jesus. </p>
                         </div>
 
-                        <div className='value col-md-6 col-12'>
+                        {/* <div className='value col-md-6 col-12'>
                             <h4>Service</h4>
                             <p>Meeting the spiritual & physical needs of our church the local community & the world.</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
