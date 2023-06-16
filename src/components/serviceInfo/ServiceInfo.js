@@ -24,7 +24,7 @@ export default function ServiceInfo() {
                     </div>
                 </div>
 
-                <div className="row justify-content-center mb-2">
+                <div className="row justify-content-center mb-3">
                     <div className="scheduleContents col-md-7 col-11">
 
                         <h5>Saturday Schedule</h5>
