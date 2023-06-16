@@ -1,6 +1,6 @@
 h1 {
   font-weight: bold;
-  font-size: 8vh;
+  font-size: 5vh;
 }
 
 h2 {
@@ -17,6 +17,10 @@ h2 {
   /* translate: 0px -96px; */
 }
 
+.behindnav {
+  height: 96px;
+  /* translate: 0px -96px; */
+}
 
 .elderphoto {
   width: 45vh;
