@@ -1,38 +1,4 @@
-h1 {
-  font-weight: bold;
-  font-size: 8vh;
-}
-
-h2 {
-  /* border-bottom: 1.5px solid #333333; */
-
-  text-decoration-color: #333333;
-  text-decoration: underline;
-  text-decoration-thickness: 5%;
-  text-underline-offset: 0.5rem;
-}
-
 .backgroundcolor {
   background-image: linear-gradient(#F1EEE9, #E8E1D7);
   /* translate: 0px -96px; */
-}
-
-
-.elderphoto {
-  width: 45vh;
-  height: auto;
-  border-radius: 1.25rem;
-  padding: 0;
-  border: 0.5rem solid #afc4c0;
-}
-
-.eldername {
-  width: 45vh;
-  height: auto;
-}
-
-.pastorphoto {
-  border-radius: 1.25rem;
-  border: 0.5rem solid #afc4c0;
-
 }

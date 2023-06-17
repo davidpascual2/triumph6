@@ -1,0 +1,44 @@
+.coreValuesComp {
+  background-color: #f1eee9;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.coreValuesTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+
+.coreValuesTitle h1 {
+  font-size: 96px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.valuesCont {
+  display: flex;
+  justify-content: center;
+  color: #022236;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.value p {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .valuesCont {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .coreValuesTitle h1 {
+    font-weight: bold;
+    font-size: 58px;
+  }
+}

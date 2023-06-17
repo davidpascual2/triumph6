@@ -1,0 +1,28 @@
+.howWeStartedTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+
+.howWeStartedTitle h1 {
+  font-size: 7vh;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+
+
+.value p {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .howWeStartedTitle h1 {
+    font-weight: bold;
+    font-size: 5vh;
+  }
+}

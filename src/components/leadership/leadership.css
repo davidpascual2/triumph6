@@ -12,10 +12,7 @@ h2 {
   text-underline-offset: 0.5rem;
 }
 
-.backgroundcolor {
-  background-image: linear-gradient(#F1EEE9, #E8E1D7);
-  /* translate: 0px -96px; */
-}
+
 
 .behindnav {
   height: 96px;
@@ -38,5 +35,19 @@ h2 {
 .pastorphoto {
   border-radius: 1.25rem;
   border: 0.5rem solid #afc4c0;
+  /* width: 45vh; */
+  height: auto;
+  aspect-ratio: 1;
+
 
 }
+
+/* @media screen and (max-width: 768px) {
+
+  .pastorphoto {
+    border-radius: 1.25rem;
+    border: 0.5rem solid #afc4c0;
+    width: 45vh;
+    height: auto;
+  }
+} */
