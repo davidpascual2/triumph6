@@ -4,7 +4,7 @@ import './coreBeliefs.css';
 export default function CoreBeliefs() {
     return (
         <>
-            <div className='coreValuesComp pb-1'>
+            <div className=' pb-1'>
                 <div className="coreValuesTitle">
                     <h1>Core Beliefs</h1>
                 </div>
