@@ -18,13 +18,13 @@ export default function Leadership() {
           </div>
         </div>
 
-        <div className="row justify-content-center">
-          <div className="col-md-8 m-3">
-            <h2 className="px-md-5 px-4 ">Pastor</h2>
+        <div className="row ">
+          <div className="col-3 col-md-8 ms-4">
+            <h2 className="">Pastor</h2>
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-8">
+          <div className="col-xl-9 my-5">
             <div className="row justify-content-evenly">
               <div className="col-md-7 col-lg-5 col-10 p-0 d-flex justify-content-center">
                 <img src={kenneth} className="pastorphoto img-fluid" alt="KennethPhoto" />
@@ -49,51 +49,51 @@ export default function Leadership() {
 
         </div>
         {/* Edlers */}
-        <div className="row">
-          <div className="col-3 m-4 mt-5">
-            <h2 className="px-4">Elders</h2>
+        <div className="row ">
+          <div className="col-3 col-md-8 ms-4 mt-4">
+            <h2 className="">Elders</h2>
           </div>
         </div>
         <div className="row justify-content-evenly pb-3 px-md-4">
-          <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
-            <div className="row justify-content-center">
+          <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4 ">
+            <div className="row justify-content-center p-4 p-md-0">
               <img src={daisy} className="elderphoto" alt="DaisyPhoto" />
             </div>
             <div className="row mt-1 justify-content-center">
-              <h5 className="eldername">
+              <h5 className="eldername ps-4">
                 Daisy
 
               </h5>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center p-4 p-md-0">
               <img className="elderphoto" src={obed} alt="ObedPhoto" />
             </div>
             <div className="row mt-1 justify-content-center">
-              <h5 className="eldername">
+              <h5 className="eldername ps-4 ">
                 Obed
 
               </h5>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center p-4 p-md-0">
               <img className=" elderphoto" src={eddie} alt="EddiePhoto" />
             </div>
             <div className="row mt-1 justify-content-center">
-              <h5 className="eldername">
+              <h5 className="eldername ps-4">
                 Eddie
 
               </h5>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center p-4 p-md-0">
               <img className=" elderphoto" src={trino} alt="TrinoPhoto" />
             </div>
             <div className="row mt-1 justify-content-center">
-              <h5 className="eldername">
+              <h5 className="eldername ps-4">
                 Trino
 
               </h5>
