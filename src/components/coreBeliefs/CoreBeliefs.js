@@ -6,7 +6,7 @@ export default function CoreBeliefs() {
         <>
             <div className='coreValuesComp pb-1'>
                 <div className="coreValuesTitle">
-                    <h1>Core Beliefs "28"</h1>
+                    <h1>Core Beliefs</h1>
                 </div>
 
                 <div className="valuesCont">
