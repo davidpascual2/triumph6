@@ -11,8 +11,8 @@ export default function HowWeStarted() {
 
 
                 <div className="row justify-content-center">
-                    <div className='col-11 col-md-7'>
-                        <h4>What We Wanted</h4>
+                    <div className='col-md-8 col-10 py-4'>
+                        {/* <h4>What We Wanted</h4> */}
                         <p>If you're looking for a church that feels like a second family, where Jesus is the center of our connections, and where everyone is welcome and accepted just as they are, then Triumph church is perfect for you!
                             <br></br>
                             <br></br>

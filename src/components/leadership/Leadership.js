@@ -11,7 +11,7 @@ import kenneth from '../../assets/Pic_Kenneth.jpg';
 export default function Leadership() {
   return (
     <>
-      <div className="container-fluid backgroundcolor">
+      <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-md-6 text-center mt-4 mb-2">
             <h1>Leadership</h1>

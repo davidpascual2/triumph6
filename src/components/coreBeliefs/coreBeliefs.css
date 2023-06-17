@@ -11,8 +11,8 @@
 }
 
 
-.coreValuesTitle h1 {
-  font-size: 7vh;
+.coreBeliefs h1 {
+  /* font-size: 7vh; */
   font-weight: bold;
   text-align: center;
   padding-top: 0.5rem;
@@ -39,6 +39,6 @@
 
   .coreValuesTitle h1 {
     font-weight: bold;
-    font-size: 58px;
+    /* font-size: 58px; */
   }
 }
