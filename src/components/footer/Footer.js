@@ -3,8 +3,8 @@ import './footer.css';
 import triumph from '../../assets/logo.001.beige.PNG';
 
 const churchName = "Triumph Seventh-Day Adventist Chruch";
-const address = "410 H ST NE";
-const cityStateZip = "Auburn WA 98002-4369";
+const address = "25213 116th Ave SE";
+const cityStateZip = "Kent WA 98030";
 const phoneNumber = "425-785-7956";
 const churchHours = "8AM-4PM M-TH, 8AM-12PM F"
 

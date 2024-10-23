@@ -18,12 +18,13 @@ export default function Leadership() {
           </div>
         </div>
 
-        <div className="row ">
+        {/* <div className="row ">
           <div className="col-3 col-md-8 ms-4">
             <h2 className="">Pastor</h2>
           </div>
-        </div>
-        <div className="row justify-content-center">
+        </div> */}
+
+        {/* <div className="row justify-content-center">
           <div className="col-xl-9 my-5">
             <div className="row justify-content-evenly">
               <div className="col-md-7 col-lg-5 col-10 p-0 d-flex justify-content-center">
@@ -47,7 +48,7 @@ export default function Leadership() {
           </div>
 
 
-        </div>
+        </div> */}
         {/* Edlers */}
         <div className="row ">
           <div className="col-3 col-md-8 ms-4 mt-4">
@@ -55,7 +56,8 @@ export default function Leadership() {
           </div>
         </div>
         <div className="row justify-content-evenly pb-3 px-md-4">
-          <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4 ">
+
+          {/* <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4 ">
             <div className="row justify-content-center p-4 p-md-0">
               <img src={daisy} className="elderphoto" alt="DaisyPhoto" />
             </div>
@@ -65,8 +67,9 @@ export default function Leadership() {
 
               </h5>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
+          </div> */}
+
+          {/* <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
             <div className="row justify-content-center p-4 p-md-0">
               <img className="elderphoto" src={obed} alt="ObedPhoto" />
             </div>
@@ -76,7 +79,8 @@ export default function Leadership() {
 
               </h5>
             </div>
-          </div>
+          </div> */}
+
           <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
             <div className="row justify-content-center p-4 p-md-0">
               <img className=" elderphoto" src={eddie} alt="EddiePhoto" />
@@ -88,6 +92,7 @@ export default function Leadership() {
               </h5>
             </div>
           </div>
+
           <div className="col-lg-3 col-md-4 my-2 p-lg-5 p-md-4">
             <div className="row justify-content-center p-4 p-md-0">
               <img className=" elderphoto" src={trino} alt="TrinoPhoto" />
