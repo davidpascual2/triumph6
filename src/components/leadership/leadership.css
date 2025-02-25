@@ -6,10 +6,12 @@ h1 {
 h2 {
   /* border-bottom: 1.5px solid #333333; */
 
-  text-decoration-color: #333333;
+  /* text-decoration-color: #333333;
   text-decoration: underline;
   text-decoration-thickness: 5%;
-  text-underline-offset: 0.5rem;
+  text-underline-offset: 0.5rem; */
+  font-weight: bold;
+  font-size: 5vh;
 }
 
 
@@ -37,7 +39,7 @@ h2 {
   border: 0.5rem solid #afc4c0;
   /* width: 45vh; */
   height: auto;
-  aspect-ratio: 1;
+  /* aspect-ratio: 1; */
 
 
 }

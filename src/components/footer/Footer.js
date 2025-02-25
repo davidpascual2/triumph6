@@ -3,9 +3,9 @@ import './footer.css';
 import triumph from '../../assets/logo.001.beige.PNG';
 
 const churchName = "Triumph Seventh-Day Adventist Chruch";
-const address = "25213 116th Ave SE";
-const cityStateZip = "Kent WA 98030";
-const phoneNumber = "425-785-7956";
+const address = "200 SE Landgston Rd";
+const cityStateZip = "Renton WA 98057";
+const phoneNumber = "(301)-395-1751";
 const churchHours = "8AM-4PM M-TH, 8AM-12PM F"
 
 //================================

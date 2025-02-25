@@ -3,12 +3,14 @@ import './serviceInfo.css';
 
 const scheduleTimes = {
     songworship: "11:45AM",
-    sabbathschool: "11:00AM",
-    announcements: "11:40AM",
-    offering: "12:50PM",
-    songworship2: "1:00PM",
-    prayer: "1:15PM",
-    sermon: "12:20PM"
+    sabbathschool: "10:00 AM",
+    // announcements: "11:40AM",
+    // offering: "12:50PM",
+    // songworship2: "1:00PM",
+    // prayer: "1:15PM",
+    // sermon: "12:20PM",
+    service: "11:00 AM",
+    lunch: "12:30 AM"
 }
 
 //=====================================
@@ -36,19 +38,29 @@ export default function ServiceInfo() {
                             </div>
 
                             <div className="scheduleItem">
+                                <p className='m-0'>Service</p>
+                                <p className='m-0'>{scheduleTimes.service}</p>
+                            </div>
+
+                            <div className="scheduleItem">
+                                <p className='m-0'>Lunch</p>
+                                <p className='m-0'>{scheduleTimes.lunch}</p>
+                            </div>
+
+                            {/* <div className="scheduleItem">
                                 <p className='m-0'>Announcements</p>
                                 <p className='m-0'>{scheduleTimes.announcements}</p>
-                            </div>
+                            </div> */}
 
-                            <div className="scheduleItem">
+                            {/* <div className="scheduleItem">
                                 <p className='m-0'>Song Worship</p>
                                 <p className='m-0'>{scheduleTimes.songworship}</p>
-                            </div>
+                            </div> */}
 
-                            <div className="scheduleItem">
+                            {/* <div className="scheduleItem">
                                 <p className='m-0'>Sermon</p>
                                 <p className='m-0'>{scheduleTimes.sermon}</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
