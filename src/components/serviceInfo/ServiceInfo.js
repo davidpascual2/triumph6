@@ -3,14 +3,14 @@ import './serviceInfo.css';
 
 const scheduleTimes = {
     songworship: "11:45AM",
-    sabbathschool: "10:00 AM",
+    // sabbathschool: "10:00 AM",
     // announcements: "11:40AM",
     // offering: "12:50PM",
     // songworship2: "1:00PM",
     // prayer: "1:15PM",
     // sermon: "12:20PM",
     service: "11:00 AM",
-    lunch: "12:30 AM"
+    lunch: "12:30 PM"
 }
 
 //=====================================
@@ -32,10 +32,6 @@ export default function ServiceInfo() {
                         <h5>Saturday Schedule</h5>
 
                         <div className="scheduleItemsCont">
-                            <div className="scheduleItem">
-                                <p className='m-0'>Sabbath School</p>
-                                <p className='m-0'>{scheduleTimes.sabbathschool}</p>
-                            </div>
 
                             <div className="scheduleItem">
                                 <p className='m-0'>Service</p>
