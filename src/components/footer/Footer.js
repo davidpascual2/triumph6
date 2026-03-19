@@ -3,7 +3,7 @@ import './footer.css';
 import triumph from '../../assets/logo.001.beige.PNG';
 
 const churchName = "Triumph Seventh-Day Adventist Chruch";
-const address = "200 SE Landgston Rd";
+const address = "200 SW Landgston Rd";
 const cityStateZip = "Renton WA 98057";
 const phoneNumber = "(301)-395-1751";
 const churchHours = "8AM-4PM M-TH, 8AM-12PM F"
